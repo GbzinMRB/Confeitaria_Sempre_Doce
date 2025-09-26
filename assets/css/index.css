@@ -45,6 +45,12 @@ nav ul li a {
 nav ul li a:hover{
     font-weight: bold;
     text-decoration: underline;
-    color: red;
+    color: red  ;
 
+}
+
+.img-carrosel{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
 }
