@@ -7,6 +7,7 @@
 
 body{
     line-height: 1.6;
+    
 }
 
 .container{
@@ -35,11 +36,14 @@ nav ul{
 nav ul li{
     display: inline;
     margin-right: 20px;
+    font-size: 20px;
+    
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    
 }
 
 nav ul li a:hover{
@@ -53,4 +57,48 @@ nav ul li a:hover{
     width: 100%;
     object-fit: cover;
     height: 300px;
+}
+
+.container h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.container p {
+    text-align: center;
+    font-size: 30px;
+}
+
+.sobre h2{
+     font-family: "Fira Sans", sans-serif !important;
+}
+
+.menu-cardapio-itens {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+
+}
+
+.menu-cardapio-item {
+    border: 1px solid red;
+    border-radius: 5px;
+    width: 30%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+
+}
+
+.menu-cardapio h2{
+    text-align: center;
+    font-size: 50px;
+
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
 }
