@@ -17,9 +17,32 @@ body{
 }
 
 header{
-    background-color: #f8b400;
+    background-color: #FDB64D;
     color: white;
     padding: 20px;
+    display: flex;
+}
+.link-admin{
+    text-decoration: none;
+    position: absolute;
+    right: 0;
+    color: whitesmoke;
+    padding-right: 20px;
+}
+.Link-admin a:hover{
+    font-weight: bold;
+    text-decoration: underline;
+    color: #FDB64D;
+}
+.logo img{
+    width: 200px;
+    margin-left: 30px;
+    display: block;
+    margin-top: 20px; 
+
+}
+.logo{
+    width: 0;
 }
 
 header h1{
